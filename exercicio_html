@@ -8,16 +8,15 @@
 <body>
     <h1>Formulário de Cadastro</h1>
     <form>
-        <label type="Nome" >Nome </label>
-        <input id="nome" type="nome" />
+        <label for="Nome" >Nome </label>
+        <input id="nome" type="text" />
         <br />
         <label for="email">E-mail</label>
         <input id="email" type="email" />
         <br />
-        <label type="senha" >Senha </label>
-        <input id="senha" type="senha" />
-        <button type="submit">
-            Cadastrar
+        <label type="pasword" >Senha </label>
+        <input id="pasword" type="password" />
+        <button type="submit"> Cadastrar </button>
     </form>
 </body>
 </html>
